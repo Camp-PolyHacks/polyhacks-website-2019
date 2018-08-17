@@ -61,7 +61,10 @@ body{
 
 P{
   padding-top: 1em;
+  padding-bottom: 4em;
   text-align: center;
+  width: 587px;
+  margin: 0 auto;
 }
 
 h1{
@@ -77,4 +80,29 @@ img{
   padding-top: 4em;
   display: block;
   margin: 0 auto;
+}
+
+.social-media{
+  display: flex;
+  justify-content: center;
+}
+
+.social-media__item{
+  margin: 16px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  h1, p{
+    width: 100%;
+  }
+
+  body{
+    padding: 0 16px;
+  }
+
+  img{
+    padding-top: 2em;
+  }
+
 }
