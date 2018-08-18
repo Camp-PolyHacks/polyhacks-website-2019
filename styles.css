@@ -52,14 +52,15 @@ table {
 */
 
 body{
-  background-image: linear-gradient(-45deg, #00BF8C, #3B5CC8);
+  background-image: linear-gradient(-45deg, #3B5CC8,#00BF8C);
   color: white;
   font-size: 150%;
-  line-height: 133%;
+  line-height: 130%;
   font-family: 'Open Sans', sans-serif;
 }
 
-P{
+p{
+  font-size: 80%;
   padding-top: 1em;
   padding-bottom: 4em;
   text-align: center;
@@ -89,13 +90,14 @@ img{
 
 .social-media__item{
   margin: 16px;
+  font-size: 120%;
 }
 
 .button{
   font-size: 50%;
-  padding: 0px 8px;
+  padding: 2px 12px;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 20px;
   color: #3B5CC8;
 }
 
@@ -117,8 +119,6 @@ img{
   p{
     padding-top: 0.5em;
     padding-bottom: 2em;
-    font-size: 0.83em;
-    line-height: 1.35em;
   }
 
   .content{
