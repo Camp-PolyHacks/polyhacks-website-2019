@@ -86,6 +86,7 @@ img{
 .social-media{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .social-media__item{
