@@ -68,6 +68,11 @@ p{
   margin: 0 auto;
 }
 
+.small{
+  font-size: 50%;
+  padding-top: 0em;
+}
+
 h1{
   padding-top: 1em;
   font-size: 216.67%;
@@ -101,6 +106,10 @@ img{
   border-radius: 20px;
   color: #3B5CC8;
   text-decoration: none;
+}
+
+.social-media__item--white{
+  color: #ffffff;
 }
 
 .content{
