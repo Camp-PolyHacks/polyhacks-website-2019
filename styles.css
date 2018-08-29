@@ -55,17 +55,25 @@ body{
   background-image: linear-gradient(-45deg, #3B5CC8,#00BF8C);
   color: white;
   font-size: 150%;
-  line-height: 130%;
+  line-height: 110%;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 p{
   font-size: 80%;
   padding-top: 1em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   text-align: center;
   width: 587px;
   margin: 0 auto;
+}
+
+.small{
+  font-size: 50%;
+  padding-top: 0em;
 }
 
 h1{
@@ -95,18 +103,30 @@ img{
 }
 
 .button{
+  text-decoration: none;
+  border: none;
   font-size: 50%;
   padding: 2px 12px;
   background-color: white;
-  border-radius: 20px;
-  color: #3B5CC8;
+  border-radius: 15px;
+  color: #0d47a1;
   text-decoration: none;
 }
 
+.button__main{
+  margin-bottom: 2em;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 4px 16px;
+  text-transform: uppercase;
+}
+.social-media__item--white{
+  color: #ffffff;
+}
+
 .content{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -127,4 +147,57 @@ img{
     padding: 0 16px;
   }
   
+}
+
+/* codepen classes*/
+
+.button-mat {
+  color: #0d47a1;
+  border: 0px transparent;
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.35s;
+  overflow: hidden;
+  position: relative;
+
+}
+.button-mat:before {
+  content: "";
+  display: block;
+  background: #0d47a1;
+  position: absolute;
+  width: 200%;
+  height: 500%;
+  border-radius: 100%;
+  transition: 0.36s cubic-bezier(0.4, 0, 1, 1);
+}
+.button-mat:hover .psuedo-text {
+  color: white;
+}
+.btn--7 {
+  border: 0px transparent;
+
+
+}
+.btn--7:before {
+  transform: translate(-110%, -110%) translateZ(0);
+  content: "";
+  display: block;
+  background: #0d47a1;
+  position: absolute;
+}
+.btn--7:hover:before {
+  transform: translate(-45%, -34%) translateZ(0);
+}
+
+.psuedo-text {
+  color: #0d47a1;
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: inline;
+  height: auto;
+  transition: 0.25s ease-in;
+  transition-delay: 0.1s;
+  border: 1px solid transparent
 }
