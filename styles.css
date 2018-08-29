@@ -57,6 +57,9 @@ body{
   font-size: 150%;
   line-height: 110%;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 p{
@@ -123,9 +126,7 @@ img{
 }
 
 .content{
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -172,14 +173,17 @@ img{
 .button-mat:hover .psuedo-text {
   color: white;
 }
-.button-mat:hover {
-  color: white;
-}
 .btn--7 {
+  border: 0px transparent;
+
 
 }
 .btn--7:before {
   transform: translate(-110%, -110%) translateZ(0);
+  content: "";
+  display: block;
+  background: #0d47a1;
+  position: absolute;
 }
 .btn--7:hover:before {
   transform: translate(-45%, -34%) translateZ(0);
@@ -195,4 +199,5 @@ img{
   height: auto;
   transition: 0.25s ease-in;
   transition-delay: 0.1s;
+  border: 1px solid transparent
 }
