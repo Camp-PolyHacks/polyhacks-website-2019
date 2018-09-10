@@ -86,9 +86,9 @@ h1{
 
 img{
   width: 150px;
-  margin-top: 4em;
   display: block;
   margin: 0 auto;
+
 }
 
 .social-media{
@@ -138,6 +138,10 @@ img{
     padding-top: 0.5em;
   }
 
+  img{
+    padding-top: 1em;
+  }
+
   p{
     padding-top: 0.5em;
     padding-bottom: 2em;
@@ -182,7 +186,7 @@ img{
   transform: translate(-110%, -110%) translateZ(0);
   content: "";
   display: block;
-  background: #0d47a1;
+  background: #00BF8C;
   position: absolute;
 }
 .btn--7:hover:before {
